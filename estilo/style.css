@@ -58,6 +58,9 @@ main{
     line-height: 2em;
     padding: 20px;
     border-style: groove;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
 main h1, h2, h3{
     padding-top: 20px;
