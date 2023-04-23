@@ -66,6 +66,7 @@ main h1, h2, h3{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+    background-image: linear-gradient(to bottom, green, white);
 }
 
 main p{
@@ -74,15 +75,32 @@ main p{
     text-indent: 30px;
 } 
 
+aside{
+    background-color: aquamarine;
+    padding: 30px;
+}
+
 footer{
-    background-color: blue;
     height: 150px;
     line-height: 150px;
     text-align: center;
     background-image: linear-gradient(to bottom, green, yellowgreen);
     color: white;
     font-family: Georgia;
-    font-size: 1.3em;
+    font-size: 0.8em;
+    padding: 5px;
     text-shadow: 0em 0em 0.2em purple;
     border: double yellow;
 }
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: yellowgreen;
+    transition-duration: 1s;
+}
+
